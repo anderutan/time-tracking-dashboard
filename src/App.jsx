@@ -1,10 +1,10 @@
 import data from './Data';
+import Profile from './components/Profile';
 
 function App() {
-  console.log(data);
   return (
     <>
-      <p>test</p>
+      <Profile userData={data} />
     </>
   );
 }
